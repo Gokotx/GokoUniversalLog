@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E894FA681FCBE3CA0008A72D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E894FA671FCBE3CA0008A72D /* AppDelegate.m */; };
+		E894FA6B1FCBE3CA0008A72D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E894FA6A1FCBE3CA0008A72D /* ViewController.m */; };
+		E894FA6E1FCBE3CA0008A72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E894FA6C1FCBE3CA0008A72D /* Main.storyboard */; };
+		E894FA701FCBE3CA0008A72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E894FA6F1FCBE3CA0008A72D /* Assets.xcassets */; };
+		E894FA731FCBE3CA0008A72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E894FA711FCBE3CA0008A72D /* LaunchScreen.storyboard */; };
+		E894FA761FCBE3CA0008A72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E894FA751FCBE3CA0008A72D /* main.m */; };
+		E894FA801FCBE3CA0008A72D /* GokoUniversalLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E894FA7F1FCBE3CA0008A72D /* GokoUniversalLogTests.m */; };
+		E894FA8B1FCBE3CA0008A72D /* GokoUniversalLogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E894FA8A1FCBE3CA0008A72D /* GokoUniversalLogUITests.m */; };
+		E894FA9B1FCBE41F0008A72D /* GokoUniversalLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E894FA991FCBE41E0008A72D /* GokoUniversalLog.m */; };
+		E8997DEB1FCFF5D60048ADE8 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = E8997DEA1FCFF5D60048ADE8 /* Foo.m */; };
+		E8997DEE1FCFFB180048ADE8 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = E8997DED1FCFFB180048ADE8 /* Bar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E894FA7C1FCBE3CA0008A72D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E894FA5B1FCBE3CA0008A72D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E894FA621FCBE3CA0008A72D;
+			remoteInfo = GokoUniversalLog;
+		};
+		E894FA871FCBE3CA0008A72D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E894FA5B1FCBE3CA0008A72D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E894FA621FCBE3CA0008A72D;
+			remoteInfo = GokoUniversalLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E894FA631FCBE3CA0008A72D /* GokoUniversalLogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GokoUniversalLogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E894FA661FCBE3CA0008A72D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E894FA671FCBE3CA0008A72D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E894FA691FCBE3CA0008A72D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E894FA6A1FCBE3CA0008A72D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E894FA6D1FCBE3CA0008A72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E894FA6F1FCBE3CA0008A72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E894FA721FCBE3CA0008A72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E894FA741FCBE3CA0008A72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E894FA751FCBE3CA0008A72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E894FA7B1FCBE3CA0008A72D /* GokoUniversalLogDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GokoUniversalLogDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E894FA7F1FCBE3CA0008A72D /* GokoUniversalLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GokoUniversalLogTests.m; sourceTree = "<group>"; };
+		E894FA811FCBE3CA0008A72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E894FA861FCBE3CA0008A72D /* GokoUniversalLogDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GokoUniversalLogDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E894FA8A1FCBE3CA0008A72D /* GokoUniversalLogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GokoUniversalLogUITests.m; sourceTree = "<group>"; };
+		E894FA8C1FCBE3CA0008A72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E894FA991FCBE41E0008A72D /* GokoUniversalLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GokoUniversalLog.m; sourceTree = "<group>"; };
+		E894FA9A1FCBE41E0008A72D /* GokoUniversalLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GokoUniversalLog.h; sourceTree = "<group>"; };
+		E8997DE91FCFF5D60048ADE8 /* Foo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		E8997DEA1FCFF5D60048ADE8 /* Foo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
+		E8997DEC1FCFFB180048ADE8 /* Bar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		E8997DED1FCFFB180048ADE8 /* Bar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E894FA601FCBE3CA0008A72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E894FA781FCBE3CA0008A72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E894FA831FCBE3CA0008A72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E894FA5A1FCBE3CA0008A72D = {
+			isa = PBXGroup;
+			children = (
+				E894FA651FCBE3CA0008A72D /* GokoUniversalLogDemo */,
+				E894FA7E1FCBE3CA0008A72D /* GokoUniversalLogTests */,
+				E894FA891FCBE3CA0008A72D /* GokoUniversalLogUITests */,
+				E894FA641FCBE3CA0008A72D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E894FA641FCBE3CA0008A72D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E894FA631FCBE3CA0008A72D /* GokoUniversalLogDemo.app */,
+				E894FA7B1FCBE3CA0008A72D /* GokoUniversalLogDemoTests.xctest */,
+				E894FA861FCBE3CA0008A72D /* GokoUniversalLogDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E894FA651FCBE3CA0008A72D /* GokoUniversalLogDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E894FA661FCBE3CA0008A72D /* AppDelegate.h */,
+				E894FA671FCBE3CA0008A72D /* AppDelegate.m */,
+				E894FA691FCBE3CA0008A72D /* ViewController.h */,
+				E894FA6A1FCBE3CA0008A72D /* ViewController.m */,
+				E8997DE91FCFF5D60048ADE8 /* Foo.h */,
+				E8997DEA1FCFF5D60048ADE8 /* Foo.m */,
+				E8997DEC1FCFFB180048ADE8 /* Bar.h */,
+				E8997DED1FCFFB180048ADE8 /* Bar.m */,
+				E894FA6C1FCBE3CA0008A72D /* Main.storyboard */,
+				E894FA6F1FCBE3CA0008A72D /* Assets.xcassets */,
+				E894FA711FCBE3CA0008A72D /* LaunchScreen.storyboard */,
+				E894FA741FCBE3CA0008A72D /* Info.plist */,
+				E894FA751FCBE3CA0008A72D /* main.m */,
+				E894FA981FCBE41E0008A72D /* GokoUniversalLog */,
+			);
+			path = GokoUniversalLogDemo;
+			sourceTree = "<group>";
+		};
+		E894FA7E1FCBE3CA0008A72D /* GokoUniversalLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				E894FA7F1FCBE3CA0008A72D /* GokoUniversalLogTests.m */,
+				E894FA811FCBE3CA0008A72D /* Info.plist */,
+			);
+			path = GokoUniversalLogTests;
+			sourceTree = "<group>";
+		};
+		E894FA891FCBE3CA0008A72D /* GokoUniversalLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E894FA8A1FCBE3CA0008A72D /* GokoUniversalLogUITests.m */,
+				E894FA8C1FCBE3CA0008A72D /* Info.plist */,
+			);
+			path = GokoUniversalLogUITests;
+			sourceTree = "<group>";
+		};
+		E894FA981FCBE41E0008A72D /* GokoUniversalLog */ = {
+			isa = PBXGroup;
+			children = (
+				E894FA9A1FCBE41E0008A72D /* GokoUniversalLog.h */,
+				E894FA991FCBE41E0008A72D /* GokoUniversalLog.m */,
+			);
+			path = GokoUniversalLog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E894FA621FCBE3CA0008A72D /* GokoUniversalLogDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E894FA8F1FCBE3CA0008A72D /* Build configuration list for PBXNativeTarget "GokoUniversalLogDemo" */;
+			buildPhases = (
+				E894FA5F1FCBE3CA0008A72D /* Sources */,
+				E894FA601FCBE3CA0008A72D /* Frameworks */,
+				E894FA611FCBE3CA0008A72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GokoUniversalLogDemo;
+			productName = GokoUniversalLog;
+			productReference = E894FA631FCBE3CA0008A72D /* GokoUniversalLogDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E894FA7A1FCBE3CA0008A72D /* GokoUniversalLogDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E894FA921FCBE3CA0008A72D /* Build configuration list for PBXNativeTarget "GokoUniversalLogDemoTests" */;
+			buildPhases = (
+				E894FA771FCBE3CA0008A72D /* Sources */,
+				E894FA781FCBE3CA0008A72D /* Frameworks */,
+				E894FA791FCBE3CA0008A72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E894FA7D1FCBE3CA0008A72D /* PBXTargetDependency */,
+			);
+			name = GokoUniversalLogDemoTests;
+			productName = GokoUniversalLogTests;
+			productReference = E894FA7B1FCBE3CA0008A72D /* GokoUniversalLogDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E894FA851FCBE3CA0008A72D /* GokoUniversalLogDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E894FA951FCBE3CA0008A72D /* Build configuration list for PBXNativeTarget "GokoUniversalLogDemoUITests" */;
+			buildPhases = (
+				E894FA821FCBE3CA0008A72D /* Sources */,
+				E894FA831FCBE3CA0008A72D /* Frameworks */,
+				E894FA841FCBE3CA0008A72D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E894FA881FCBE3CA0008A72D /* PBXTargetDependency */,
+			);
+			name = GokoUniversalLogDemoUITests;
+			productName = GokoUniversalLogUITests;
+			productReference = E894FA861FCBE3CA0008A72D /* GokoUniversalLogDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E894FA5B1FCBE3CA0008A72D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Goko;
+				TargetAttributes = {
+					E894FA621FCBE3CA0008A72D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					E894FA7A1FCBE3CA0008A72D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E894FA621FCBE3CA0008A72D;
+					};
+					E894FA851FCBE3CA0008A72D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E894FA621FCBE3CA0008A72D;
+					};
+				};
+			};
+			buildConfigurationList = E894FA5E1FCBE3CA0008A72D /* Build configuration list for PBXProject "GokoUniversalLogDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E894FA5A1FCBE3CA0008A72D;
+			productRefGroup = E894FA641FCBE3CA0008A72D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E894FA621FCBE3CA0008A72D /* GokoUniversalLogDemo */,
+				E894FA7A1FCBE3CA0008A72D /* GokoUniversalLogDemoTests */,
+				E894FA851FCBE3CA0008A72D /* GokoUniversalLogDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E894FA611FCBE3CA0008A72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E894FA731FCBE3CA0008A72D /* LaunchScreen.storyboard in Resources */,
+				E894FA701FCBE3CA0008A72D /* Assets.xcassets in Resources */,
+				E894FA6E1FCBE3CA0008A72D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E894FA791FCBE3CA0008A72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E894FA841FCBE3CA0008A72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E894FA5F1FCBE3CA0008A72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E894FA9B1FCBE41F0008A72D /* GokoUniversalLog.m in Sources */,
+				E894FA6B1FCBE3CA0008A72D /* ViewController.m in Sources */,
+				E894FA761FCBE3CA0008A72D /* main.m in Sources */,
+				E8997DEE1FCFFB180048ADE8 /* Bar.m in Sources */,
+				E894FA681FCBE3CA0008A72D /* AppDelegate.m in Sources */,
+				E8997DEB1FCFF5D60048ADE8 /* Foo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E894FA771FCBE3CA0008A72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E894FA801FCBE3CA0008A72D /* GokoUniversalLogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E894FA821FCBE3CA0008A72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E894FA8B1FCBE3CA0008A72D /* GokoUniversalLogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E894FA7D1FCBE3CA0008A72D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E894FA621FCBE3CA0008A72D /* GokoUniversalLogDemo */;
+			targetProxy = E894FA7C1FCBE3CA0008A72D /* PBXContainerItemProxy */;
+		};
+		E894FA881FCBE3CA0008A72D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E894FA621FCBE3CA0008A72D /* GokoUniversalLogDemo */;
+			targetProxy = E894FA871FCBE3CA0008A72D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E894FA6C1FCBE3CA0008A72D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E894FA6D1FCBE3CA0008A72D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E894FA711FCBE3CA0008A72D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E894FA721FCBE3CA0008A72D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E894FA8D1FCBE3CA0008A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E894FA8E1FCBE3CA0008A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E894FA901FCBE3CA0008A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJJD8856HP;
+				INFOPLIST_FILE = "$(SRCROOT)/GokoUniversalLogDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goko.GokoUniversalLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E894FA911FCBE3CA0008A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJJD8856HP;
+				INFOPLIST_FILE = "$(SRCROOT)/GokoUniversalLogDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goko.GokoUniversalLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E894FA931FCBE3CA0008A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJJD8856HP;
+				INFOPLIST_FILE = GokoUniversalLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goko.GokoUniversalLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GokoUniversalLogDemo.app/GokoUniversalLogDemo";
+			};
+			name = Debug;
+		};
+		E894FA941FCBE3CA0008A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJJD8856HP;
+				INFOPLIST_FILE = GokoUniversalLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goko.GokoUniversalLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GokoUniversalLogDemo.app/GokoUniversalLogDemo";
+			};
+			name = Release;
+		};
+		E894FA961FCBE3CA0008A72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJJD8856HP;
+				INFOPLIST_FILE = GokoUniversalLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goko.GokoUniversalLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GokoUniversalLog;
+			};
+			name = Debug;
+		};
+		E894FA971FCBE3CA0008A72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJJD8856HP;
+				INFOPLIST_FILE = GokoUniversalLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goko.GokoUniversalLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GokoUniversalLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E894FA5E1FCBE3CA0008A72D /* Build configuration list for PBXProject "GokoUniversalLogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E894FA8D1FCBE3CA0008A72D /* Debug */,
+				E894FA8E1FCBE3CA0008A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E894FA8F1FCBE3CA0008A72D /* Build configuration list for PBXNativeTarget "GokoUniversalLogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E894FA901FCBE3CA0008A72D /* Debug */,
+				E894FA911FCBE3CA0008A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E894FA921FCBE3CA0008A72D /* Build configuration list for PBXNativeTarget "GokoUniversalLogDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E894FA931FCBE3CA0008A72D /* Debug */,
+				E894FA941FCBE3CA0008A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E894FA951FCBE3CA0008A72D /* Build configuration list for PBXNativeTarget "GokoUniversalLogDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E894FA961FCBE3CA0008A72D /* Debug */,
+				E894FA971FCBE3CA0008A72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E894FA5B1FCBE3CA0008A72D /* Project object */;
+}
