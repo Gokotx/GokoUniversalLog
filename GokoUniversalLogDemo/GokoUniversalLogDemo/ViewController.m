@@ -22,6 +22,9 @@
     NSLog(@"%@%@",fooo,[Foo new]);
     GokoLog(fooo,[Foo new], nil);
     GokoDescriptionLog(fooo,[Foo new], nil);
+    GokoLog(1.4);
+    GokoLog(@1,nil);
+    GokoLog(16);
 }
 
 - (void)didReceiveMemoryWarning {

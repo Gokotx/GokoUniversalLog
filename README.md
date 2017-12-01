@@ -16,14 +16,16 @@ pod 'GokoUniversalLog', :git => 'https://github.com/Gokotx/GokoUniversalLog.git'
 ```
 This pulls from the master branch directly .
 - Second, ,  install GokoUniversalLog into your project :
-` pod install`
+```
+pod install
+```
 ## Carthage
 - Not support now . coming soon
 ## Manually
 - Just drag the `GokoUniversalLog/GokoUniversalLog` folder into your project .
 ## Usage
 ### Gloable Setting For GokoUniversalLog
-- Suggest to invoke the follow method in ` -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions`
+- Suggest to invoke the following method in ` -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions`
 ```
 /**
 Gloable setting for GokoUniversalLog
@@ -43,6 +45,9 @@ usually look as simple as this (see [demo](https://github.com/Gokotx/GokoUnivers
 @Class Foo
 NSString * fooo = @"Fooo";
 GokoLog(fooo,[Foo new], nil);
+GokoLog(1.4);
+GokoLog(@1,nil);
+GokoLog(16);
 ```
 
 - If you want to see  all properties of all objects , use the following :
@@ -57,3 +62,5 @@ GokoDescriptionLog(fooo,[Foo new], nil);
 ```
 ## License
 `GokoUniversalLog` is released under the MIT license. See LICENSE for details.
+##中文版
+- [中文版说明](http://www.jianshu.com/p/639f2acdb702)

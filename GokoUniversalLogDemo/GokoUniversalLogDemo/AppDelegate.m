@@ -18,9 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
     GokoLogEnable(YES);
-    
     return YES;
 }
 
