@@ -290,7 +290,7 @@ void GOKO_LOG_ENABLE_MODE(GokoConvenientBlock expression){
         expression();
     }
 }
-void GoKoLogEnable(BOOL enable){
+void GokoLogEnable(BOOL enable){
     GOKO_LOG_ENABLE = enable;
 }
 

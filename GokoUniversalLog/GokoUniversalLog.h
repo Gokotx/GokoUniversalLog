@@ -19,7 +19,7 @@
  
  @param enable YES for enable , NO for disable
  */
-void GoKoLogEnable(BOOL enable);
+void GokoLogEnable(BOOL enable);
 
 __attribute__((overloadable)) void GokoLog(CGFloat value);
 __attribute__((overloadable)) void GokoLog(CGRect value);
