@@ -7,16 +7,20 @@ Universal Log Tools for Objective-C
 ## Installation
 ## From CocoaPods
 - [CocoaPods](https://cocoapods.org/) is a dependency manager for Objective-C , which automates and simplifies the process of using 3rd-party libraries like [GokoUniversalLog](https://github.com/Gokotx/GokoUniversalLog) in your projects . First , add the following line to your [Podfile](http://guides.cocoapods.org/using/using-cocoapods.html):
-` pod 'GokoUniversalLog'`
+```
+pod 'GokoUniversalLog'
+```
 - If you want to use the latest features of [GokoUniversalLog](https://github.com/Gokotx/GokoUniversalLog) use normal external source dependencies .
-` pod 'GokoUniversalLog', :git => 'https://github.com/Gokotx/GokoUniversalLog.git'`
+```
+pod 'GokoUniversalLog', :git => 'https://github.com/Gokotx/GokoUniversalLog.git'
+```
 This pulls from the master branch directly .
 - Second, ,  install GokoUniversalLog into your project :
 ` pod install`
 ## Carthage
 - Not support now . coming soon
 ## Manually
-- Just drag the GokoUniversalLog/GokoUniversalLog folder into your project .
+- Just drag the `GokoUniversalLog/GokoUniversalLog` folder into your project .
 ## Usage
 ### Gloable Setting For GokoUniversalLog
 - Suggest to invoke the follow method in ` -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions`
@@ -52,4 +56,4 @@ NSString * fooo = @"Fooo";
 GokoDescriptionLog(fooo,[Foo new], nil);
 ```
 ## License
-GokoUniversalLog is released under the MIT license. See LICENSE for details.
+`GokoUniversalLog` is released under the MIT license. See LICENSE for details.
