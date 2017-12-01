@@ -62,5 +62,6 @@ GokoDescriptionLog(fooo,[Foo new], nil);
 ```
 ## License
 `GokoUniversalLog` is released under the MIT license. See LICENSE for details.
-##中文版
+
+## 中文版
 - [中文版说明](http://www.jianshu.com/p/639f2acdb702)
