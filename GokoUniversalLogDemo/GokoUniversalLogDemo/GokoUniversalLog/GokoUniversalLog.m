@@ -318,18 +318,22 @@ __attribute__((overloadable)) void GokoLog(CGSize value){
 
 __attribute__((overloadable)) void GokoLog(id firstParam, ...){
     NSArray * params = GOKO_TOTAL_PARAMS(firstParam);
+    NSMutableString * logString = @"".mutableCopy;
     GOKO_LOG_ENABLE_MODE(^{
         [params enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-            NSLog(@"%@",obj);
+            [logString appendString:GokoString(obj)];
         }];
+        NSLog(@"%@",logString);
     });
 }
 __attribute__((overloadable)) void GokoDescriptionLog(id firstParam, ...){
     NSArray * params = GOKO_TOTAL_PARAMS(firstParam);
+    NSMutableString * logString = @"".mutableCopy;
     GOKO_LOG_ENABLE_MODE(^{
         [params enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-            NSLog(@"%@",GokoString(obj));
+            [logString appendString:GokoString(obj)];
         }];
+        NSLog(@"%@",logString);
     });
 }
 
