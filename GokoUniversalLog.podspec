@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "GokoUniversalLog"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "UniversalLog Tools for Objective-C."
   s.description      = <<-DESC
                         Convenient Log for Everything in Objective-C
