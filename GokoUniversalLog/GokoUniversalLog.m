@@ -297,28 +297,28 @@ void GokoLogEnable(BOOL enable){
 #pragma mark - Log Method
 __attribute__((overloadable)) void GokoLog(CGFloat value){
     GOKO_LOG_ENABLE_MODE(^{
-        NSLog(@"%@",GokoString(value));
+        NSLog(@"%@%@",@"[GokoLog] ",GokoString(value));
     });
 }
 __attribute__((overloadable)) void GokoLog(CGRect value){
     GOKO_LOG_ENABLE_MODE(^{
-        NSLog(@"%@",GokoString(value));
+        NSLog(@"%@%@",@"[GokoLog] ",GokoString(value));
     });
 }
 __attribute__((overloadable)) void GokoLog(CGPoint value){
     GOKO_LOG_ENABLE_MODE(^{
-        NSLog(@"%@",GokoString(value));
+        NSLog(@"%@%@",@"[GokoLog] ",GokoString(value));
     });
 }
 __attribute__((overloadable)) void GokoLog(CGSize value){
     GOKO_LOG_ENABLE_MODE(^{
-        NSLog(@"%@",GokoString(value));
+        NSLog(@"%@%@",@"[GokoLog] ",GokoString(value));
     });
 }
 
 __attribute__((overloadable)) void GokoLog(id firstParam, ...){
     NSArray * params = GOKO_TOTAL_PARAMS(firstParam);
-    __block NSMutableString * logString = @"".mutableCopy;
+    __block NSMutableString * logString = @"[GokoLog] ".mutableCopy;
     GOKO_LOG_ENABLE_MODE(^{
         [params enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             [logString appendString:[obj description]];
@@ -328,7 +328,7 @@ __attribute__((overloadable)) void GokoLog(id firstParam, ...){
 }
 __attribute__((overloadable)) void GokoDescriptionLog(id firstParam, ...){
     NSArray * params = GOKO_TOTAL_PARAMS(firstParam);
-    __block NSMutableString * logString = @"".mutableCopy;
+    __block NSMutableString * logString = @"[GokoDescriptionLog] ".mutableCopy;
     GOKO_LOG_ENABLE_MODE(^{
         [params enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             [logString appendString:GokoString(obj)];
